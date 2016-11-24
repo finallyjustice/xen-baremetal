@@ -7,5 +7,7 @@
 3. xm create domain_config. The console log is shown in `xm dmesg`.
 
 To print in debug console, the prerequisite is:
+
 a. xen is compiled with `make verbose=y`
+
 b. dom0 grub is with: loglvl=all guest_loglvl=all sync_console console_to_ring
